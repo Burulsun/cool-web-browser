@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MiniWeb.MiniWebController">
+   <children>
+      <WebView fx:id="webView" layoutX="10.0" layoutY="53.0" prefHeight="541.0" prefWidth="790.0" />
+      <Hyperlink fx:id="hlBackward" layoutX="14.0" layoutY="29.0" prefHeight="24.0" prefWidth="81.0" text="Backward" />
+      <Hyperlink fx:id="hlForward" layoutX="87.0" layoutY="29.0" prefHeight="24.0" prefWidth="73.0" text="Forward" />
+      <Hyperlink fx:id="hlReload" layoutX="160.0" layoutY="29.0" text="Reload" />
+      <Hyperlink fx:id="hlHome" layoutX="243.0" layoutY="29.0" text="Home" />
+      <TextField fx:id="searchTextField" layoutX="302.0" layoutY="28.0" prefHeight="26.0" prefWidth="218.0" promptText="https:www.ucentralasia.org" />
+      <Hyperlink fx:id="hlSearch" layoutX="519.0" layoutY="29.0" text="Search" />
+      <Hyperlink fx:id="hlZin" layoutX="580.0" layoutY="29.0" text="Zoom in" />
+      <Hyperlink fx:id="hlZout" layoutX="638.0" layoutY="29.0" text="Zoom out" />
+      <Hyperlink fx:id="hlAbout" layoutX="727.0" layoutY="29.0" text="About" />
+   </children>
+</AnchorPane>
