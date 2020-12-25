@@ -8,7 +8,7 @@ If the usual VM set up doesn't work(/javafx-sdk-11.0.2/lib --add-modules javafx.
 
 Initial Look:
 
-![](MiniWeb/Screenshots/initial.jpeg)
+![](MiniWeb/Screenshots/initial.jpeg)zoomIn.jpeg
 
 Search Button, you need to enter full link:
 
@@ -23,7 +23,7 @@ Zoom out will decrease the size of your page to 10%:
 
 ![](MiniWeb/Screenshots/zoomOut.jpeg)
 
-About button will give broader information:
+About button will give broader information, in my case it gives a message :)
 
 ![](MiniWeb/Screenshots/about.jpeg )
 
